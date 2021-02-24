@@ -1,0 +1,75 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    /* text-decoration: none; */
+}
+
+body::before{
+    opacity: 0.6;
+    content: "";
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('/static/car.jpg') no-repeat center center;
+}
+nav{
+    /* background-color: crimson; */
+    background: '';
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(73, 24, 24);
+    padding: 3px 13px;
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+/* .head{
+    background-color: rgb(92, 255, 201);
+    display: block;
+    margin:  auto;
+    text-align: center;
+}
+ */
+
+
+h1{
+    font-size: 2rem;
+    padding: 8px 20px;
+    list-style: none;
+    
+}
+
+input, textarea{
+    display: block;
+    padding: 5px;
+    color:rgb(80, 20, 20);
+    margin: 20px auto;
+    width: 50%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 46px;
+    background: #721111;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(172, 74, 57);
+}
